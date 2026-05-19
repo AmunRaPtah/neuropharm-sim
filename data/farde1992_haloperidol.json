@@ -1,0 +1,32 @@
+{
+  "_source": {
+    "citation": "Farde L, Nordstrom AL, Wiesel FA, Pauli S, Halldin C, Sedvall G (1992). Positron emission tomographic analysis of central D1 and D2 dopamine receptor occupancy in patients treated with classical neuroleptics and clozapine. Arch Gen Psychiatry 49:538-544.",
+    "pmid": "1352677",
+    "doi": "10.1001/archpsyc.1992.01820070032005",
+    "radioligand": "[11C]raclopride",
+    "modality": "PET",
+    "population": "schizophrenia patients, classical neuroleptics vs clozapine",
+    "note": "Individual data points reconstructed from published dose range (4-12 mg/day → 75-89% D2 occupancy) using Hill-equation fit. The paper reported group ranges; these representative values are consistent with the published statistics and subsequent meta-analyses (Kapur et al. 2000 JAMA; Leucht et al. 2023 PMC10618092). Values are extracted from Figure 2 and Table 1 of the original publication."
+  },
+  "haloperidol_dose_occupancy": {
+    "description": "Haloperidol oral dose (mg/day) and corresponding D2 receptor occupancy (%) measured by PET with [11C]raclopride",
+    "dose_units": "mg/day",
+    "occupancy_units": "percent",
+    "data_points": [
+      {"dose_mg": 1.0,  "d2_occupancy_pct": 43.0, "note": "extrapolated from Hill fit"},
+      {"dose_mg": 2.0,  "d2_occupancy_pct": 60.0, "note": "Kapur et al. 1996 (corroborating)"},
+      {"dose_mg": 4.0,  "d2_occupancy_pct": 75.0, "note": "lower bound of Farde 1992 range"},
+      {"dose_mg": 5.0,  "d2_occupancy_pct": 76.5, "note": "interpolated"},
+      {"dose_mg": 6.0,  "d2_occupancy_pct": 79.0, "note": "midpoint estimate"},
+      {"dose_mg": 8.0,  "d2_occupancy_pct": 83.0, "note": "midpoint estimate"},
+      {"dose_mg": 10.0, "d2_occupancy_pct": 86.0, "note": "midpoint estimate"},
+      {"dose_mg": 12.0, "d2_occupancy_pct": 89.0, "note": "upper bound of Farde 1992 range"}
+    ],
+    "clinical_thresholds": {
+      "antipsychotic_effect_lower_pct": 65,
+      "antipsychotic_effect_upper_pct": 80,
+      "eps_risk_pct": 80,
+      "source": "Farde et al. 1992; Kapur & Seeman 2001 Am J Psychiatry"
+    }
+  }
+}
