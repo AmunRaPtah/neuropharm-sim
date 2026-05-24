@@ -1,6 +1,6 @@
 # neuropharm-sim
 
-**Circuit-level dopaminergic pharmacology simulator + AND-Gate Consolidation Threshold Model**
+**Circuit-level dopaminergic pharmacology simulator + CCT Threshold Model**
 
 A computational neuroscience package for modelling drug–receptor–circuit interactions in the mesocorticolimbic dopamine system, with a mechanistic framework for addiction prevention research.
 
