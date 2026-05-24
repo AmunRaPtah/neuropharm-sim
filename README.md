@@ -14,7 +14,7 @@ Two related problems compound this gap:
 
 1. **Target selection**: Dopaminergic targets for addiction (D2, DAT, NMDA) are each individually well-characterised, yet no open, validated tool integrates them into a single circuit simulation with published PK/PD parameters.
 
-2. **Multi-target strategy**: Addiction consolidation is not driven by a single molecular event. The AND-Gate Consolidation Threshold Model implemented here formalises the hypothesis that simultaneous activation of three independent neurobiological axes—dopamine salience, NMDA-dependent plasticity, and reward prediction error—is required for experience to consolidate into compulsive motivation. This predicts that multi-axis interventions yield super-additive protection well beyond what any single-target therapy can achieve.
+2. **Multi-target strategy**: Addiction consolidation is not driven by a single molecular event. The CCT Model implemented here formalises the hypothesis that simultaneous activation of three independent neurobiological axes—dopamine salience, NMDA-dependent plasticity, and reward prediction error—is required for experience to consolidate into compulsive motivation. This predicts that multi-axis interventions yield super-additive protection well beyond what any single-target therapy can achieve.
 
 `neuropharm-sim` addresses both problems with a validated, reproducible, open simulation framework.
 
@@ -125,7 +125,7 @@ The model is validated against the landmark PET study using [11C]raclopride.
 
 ---
 
-## AND-Gate Results: Super-Additive Protection
+## CCT Results: Super-Additive Protection
 
 | Modulation factor | Baseline P | Single-axis P | Triple-axis P | Ratio (single/triple) | % reduction (triple) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
